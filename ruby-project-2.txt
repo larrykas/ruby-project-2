@@ -26,7 +26,6 @@ Ruby Project 2
 
 
 9.  For one of the names, change the car they drive.
-      property.delete("Jenny")
       property["Jenny"] = "Volvo"
 
 
@@ -34,6 +33,9 @@ Ruby Project 2
 
       º Use arrays when the order matters
       º Use hashes when the label matters
+      
+      A major difference between hashes and arrays is how fast they can look up something. 
+      Hashes are lightning fast at looking up a key (much faster than an Array)
 
 
 
