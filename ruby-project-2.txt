@@ -1,0 +1,39 @@
+Ruby Project 2
+
+1.  Create an array of names.
+      names = ["Larry", "Jenny", "Larryn", "Jared"]
+      
+2.  Sort that array (ascending) in alphabetical order.
+      names.sort
+      
+3.  Remove the first item from the array.
+      names.delete_at(0)
+
+4.  Remove the last item from the array.
+      names.pop
+
+5.  Reverse the order of the array.
+      names.reverse
+
+6.  Iterate through the array and print the name to the screen.
+      print names
+
+7.  Create a hash with the KEY being a name and the VALUE being the type of car they drive ("Steve" as the key and "Taurus" as the value)
+      property = {"Larry"=>"Aston Martin", "Jenny"=>"Bentley", "Larryn"=>"BMW", "Jared"=>"Porsche"}
+
+8.  Iterate through the hash printing the name and the type of car they drive to the screen.
+      puts property
+
+
+9.  For one of the names, change the car they drive.
+      property.delete("Jenny")
+      property["Jenny"] = "Volvo"
+
+
+10. What are the primary differences between an Array and a Hash. When/why would you use one over the other?
+
+      º Use arrays when the order matters
+      º Use hashes when the label matters
+
+
+
