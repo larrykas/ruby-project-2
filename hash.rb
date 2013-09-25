@@ -6,8 +6,11 @@ puts property
 property["Jenny"] = "Volvo"
 # Returns new look of the hash after the changes are made
 property.inspect
-# An enumerator is returned
-property.each
+# outputs the key and value each on a separate line
+property.each do |key, value|
+  puts "Key:#{key}"
+  puts "Value:#{value}"
+end
 # finds the value and returns the key
 property.index("BMW")
 
